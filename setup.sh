@@ -1,16 +1,17 @@
 ln -s ~/dotfiles/tmux/tmux.conf .tmux.conf
+ln -s ~/dotfiles/tmux ~/.tmux
 
 # mac setup
 chsh -s /usr/local/bin/zsh
 
-ln -s ~/dotfiles/zprezto .zprezto
-ln -s ~/dotfiles/zprezto/runcoms/zlogin .zlogin
-ln -s ~/dotfiles/zprezto/runcoms/zlogout .zlogout
-ln -s ~/dotfiles/zprezto/runcoms/zpreztorc .zpreztorc
-ln -s ~/dotfiles/zprezto/runcoms/zprofile .zprofile
-ln -s ~/dotfiles/zprezto/runcoms/zenv .zenv
-ln -s ~/dotfiles/zprezto/runcoms/zshenv .zshenv
-ln -s ~/dotfiles/zshrc .zshrc
+ln -fs ~/dotfiles/prezto ~/.zprezto
+ln -fs ~/dotfiles/prezto/runcoms/zlogin ~/.zlogin
+ln -fs ~/dotfiles/prezto/runcoms/zlogout ~/.zlogout
+ln -fs ~/dotfiles/prezto/runcoms/zpreztorc ~/.zpreztorc
+ln -fs ~/dotfiles/prezto/runcoms/zprofile ~/.zprofile
+ln -fs ~/dotfiles/prezto/runcoms/zenv ~/.zenv
+ln -fs ~/dotfiles/prezto/runcoms/zshenv ~/.zshenv
+ln -fs ~/dotfiles/zshrc ~/.zshrc
 
 ln -s ~/dotfiles/vim .vim
 ln -s ~/dotfiles/vim/vimrc .vimrc

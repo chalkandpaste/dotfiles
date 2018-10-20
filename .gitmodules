@@ -1,6 +1,15 @@
 [submodule "prezto"]
 	path = prezto
-	url = git@github.com:chalkandpaste/prezto.git
+	url = https://github.com/chalkandpaste/prezto.git
 [submodule "vim/autoload/vim-plug"]
 	path = vim/autoload/vim-plug
 	url = https://github.com/junegunn/vim-plug.git
+[submodule "tomorrow-theme"]
+	path = tomorrow-theme
+	url = https://github.com/chriskempson/tomorrow-theme.git
+[submodule "tmux/plugins/tpm"]
+	path = tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm.git
+[submodule "fonts"]
+	path = fonts
+	url = https://github.com/powerline/fonts.git
