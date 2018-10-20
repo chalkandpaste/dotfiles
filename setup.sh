@@ -1,16 +1,21 @@
+# brew installs
 brew install zsh
 brew install neovim
 brew install tmux
 brew install reattach-to-user-namespace
 
+# setup zsh
 command -v zsh | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/zsh
 
+# install powerline modified fonts
 sh ./fonts/install.sh
 
+# setup tmux
 ln -s ~/dotfiles/tmux/tmux.conf ~/.tmux.conf
 ln -s ~/dotfiles/tmux ~/.tmux
 
+# setup prezto
 ln -fs ~/dotfiles/prezto ~/.zprezto
 ln -fs ~/dotfiles/prezto/runcoms/zlogin ~/.zlogin
 ln -fs ~/dotfiles/prezto/runcoms/zlogout ~/.zlogout
@@ -20,9 +25,13 @@ ln -fs ~/dotfiles/prezto/runcoms/zenv ~/.zenv
 ln -fs ~/dotfiles/prezto/runcoms/zshenv ~/.zshenv
 ln -fs ~/dotfiles/zshrc ~/.zshrc
 
+# setup vim configs
+rm -rf ~/.vim
 ln -s ~/dotfiles/vim ~/.vim
 ln -s ~/dotfiles/vim/vimrc ~/.vimrc
-# ln -s ~/dotfiles/vim/vimrc ~/dotfiles/vim/init.vim
 ln -s ~/dotfiles/vim ~/.nvim
-# ln -s ~/dotfiles/vimrc ~/.config/nvim/init.vim
 
+# link for neovim
+mkdir ~/.config/nvim
+ln -s ~/dotfiles/vim/vimrc ~/.config/nvim/init.vim
+ln -s ~/dotfiles/vim ~/.local/share/nvim/site
