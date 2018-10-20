@@ -1,3 +1,8 @@
+brew install zsh
+brew install neovim
+brew install tmux
+brew install reattach-to-user-namespace
+
 ln -s ~/dotfiles/tmux/tmux.conf .tmux.conf
 ln -s ~/dotfiles/tmux ~/.tmux
 
@@ -13,8 +18,9 @@ ln -fs ~/dotfiles/prezto/runcoms/zenv ~/.zenv
 ln -fs ~/dotfiles/prezto/runcoms/zshenv ~/.zshenv
 ln -fs ~/dotfiles/zshrc ~/.zshrc
 
-ln -s ~/dotfiles/vim .vim
-ln -s ~/dotfiles/vim/vimrc .vimrc
-# ln -s dotfiles/vim/vimrc dotfiles/vim/init.vim
-ln -s ~/dotfiles/vim .nvim
+ln -s ~/dotfiles/vim ~/.vim
+ln -s ~/dotfiles/vim/vimrc ~/.vimrc
+# ln -s ~/dotfiles/vim/vimrc ~/dotfiles/vim/init.vim
+ln -s ~/dotfiles/vim ~/.nvim
 # ln -s ~/dotfiles/vimrc ~/.config/nvim/init.vim
+
