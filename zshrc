@@ -19,7 +19,7 @@ promptinit
 prompt paradox
 
 export NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim
-export HOMEBREW_GITHUB_API_TOKEN=cff4c0102a159d11a9ef8cc013d793848d80ae20
+export HOMEBREW_GITHUB_API_TOKEN=""
 
 export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/bin:$PATH
