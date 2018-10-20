@@ -3,11 +3,13 @@ brew install neovim
 brew install tmux
 brew install reattach-to-user-namespace
 
-ln -s ~/dotfiles/tmux/tmux.conf .tmux.conf
-ln -s ~/dotfiles/tmux ~/.tmux
-
-# mac setup
+command -v zsh | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/zsh
+
+sh ./fonts/install.sh
+
+ln -s ~/dotfiles/tmux/tmux.conf ~/.tmux.conf
+ln -s ~/dotfiles/tmux ~/.tmux
 
 ln -fs ~/dotfiles/prezto ~/.zprezto
 ln -fs ~/dotfiles/prezto/runcoms/zlogin ~/.zlogin
