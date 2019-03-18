@@ -64,6 +64,8 @@
         " Latex Stuff
         Plug 'coot/atp_vim'
 
+        Plug 'parkr/vim-jekyll'
+
         " Style stuff
         Plug 'bling/vim-airline'
         Plug 'chriskempson/base16-vim'
