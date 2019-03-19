@@ -1,6 +1,3 @@
-[submodule "prezto"]
-	path = prezto
-	url = https://github.com/chalkandpaste/prezto.git
 [submodule "vim/autoload/vim-plug"]
 	path = vim/autoload/vim-plug
 	url = https://github.com/junegunn/vim-plug.git
@@ -16,3 +13,6 @@
 [submodule "powerline"]
 	path = powerline
 	url = https://github.com/powerline/powerline.git
+[submodule "prezto"]
+	path = prezto
+	url = git@github.com:sorin-ionescu/prezto
