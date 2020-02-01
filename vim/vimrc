@@ -70,7 +70,7 @@
         Plug 'bling/vim-airline'
         Plug 'chriskempson/base16-vim'
         Plug 'flazz/vim-colorschemes'
-        "Plug 'junegunn/limelight.vim'
+        Plug 'junegunn/limelight.vim'
 
         " Git
         Plug 'tpope/vim-fugitive'
@@ -224,7 +224,7 @@ set termguicolors
 set background=dark
 
 try
-  colorscheme base16-tomorrow-night
+  colorscheme base16-tomorrow-night "base16-materia
 catch
 endtry
 
@@ -279,6 +279,11 @@ set ffs=unix,dos,mac
 
 " Use large font by default in MacVim
 set gfn=Monaco:h19
+
+" Enable Alpha transparency:
+hi! Normal ctermbg=NONE guibg=NONE
+hi! NonText ctermbg=NONE guibg=NONE
+
 
 " }}}
 
