@@ -2,7 +2,9 @@
 """Apply reviewed config, moving existing entries to a dated backup first."""
 from pathlib import Path
 from datetime import datetime
+import json
 import shutil
+import subprocess
 
 base = Path(__file__).resolve().parent
 home = Path.home()
@@ -40,3 +42,12 @@ font_target = home / "Library/Fonts" / font.name
 font_target.parent.mkdir(parents=True, exist_ok=True)
 if not font_target.exists():
     shutil.copy2(font, font_target)
+
+# iTerm stores the default profile separately from its profile definition.
+profile_data = json.loads((base / "iterm2.json").read_text())
+profile_guid = profile_data["Profiles"][0]["Guid"]
+subprocess.run([
+    "defaults", "write", "com.googlecode.iterm2",
+    "Default Bookmark Guid", "-string", profile_guid,
+], check=True)
+print("Set default iTerm2 profile:", profile_data["Profiles"][0]["Name"])

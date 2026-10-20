@@ -16,7 +16,7 @@ python3 macos/apply.py
 exec /bin/zsh -l
 ```
 
-If either repository already exists, fetch it instead of cloning it. `apply.py` moves any files it replaces into a timestamped directory under `macos/backups`; review those backups before deleting them. The checked-in iTerm profile becomes available automatically through iTerm's Dynamic Profiles directory.
+If either repository already exists, fetch it instead of cloning it. `apply.py` moves any files it replaces into a timestamped directory under `macos/backups`; review those backups before deleting them. The checked-in iTerm profile becomes available automatically through iTerm's Dynamic Profiles directory and is set as the default. If iTerm was open during setup, quit and reopen it before creating a new window.
 
 ## Installed
 
