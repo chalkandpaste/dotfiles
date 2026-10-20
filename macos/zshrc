@@ -1,0 +1,17 @@
+# Keep interactive non-login shells working too.
+typeset -gU path
+path=("$HOME/dotfiles/macos/tools/fzf/bin" /opt/homebrew/bin /opt/homebrew/sbin $path)
+export EDITOR=nvim VISUAL=nvim
+
+if [[ -s "$HOME/.zprezto/init.zsh" ]]; then
+  source "$HOME/.zprezto/init.zsh"
+fi
+
+alias vim=nvim
+alias vi=nvim
+alias ll='ls -lah'
+
+# fzf supplies Ctrl-R history search, Ctrl-T files, and Alt-C directories.
+if [[ -o zle && -t 0 && -t 1 ]] && (( $+commands[fzf] )); then
+  source <(fzf --zsh)
+fi

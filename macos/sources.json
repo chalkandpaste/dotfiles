@@ -1,0 +1,45 @@
+{
+  "base16-vim": {
+    "origin": "https://github.com/chriskempson/base16-vim.git",
+    "commit": "3be3cd82cd31acfcab9a41bad853d9c68d30478d"
+  },
+  "fzf.vim": {
+    "origin": "https://github.com/junegunn/fzf.vim.git",
+    "commit": "8a0068127ac9ee23d71dab2944ce995726bef462"
+  },
+  "vim-fugitive": {
+    "origin": "https://github.com/tpope/vim-fugitive.git",
+    "commit": "3b753cf8c6a4dcde6edee8827d464ba9b8c4a6f0"
+  },
+  "vim-surround": {
+    "origin": "https://github.com/tpope/vim-surround.git",
+    "commit": "3d188ed2113431cf8dac77be61b842acb64433d9"
+  },
+  "prezto": {
+    "origin": "https://github.com/sorin-ionescu/prezto.git",
+    "commit": "cff2d01871425b1b80710f8ec6a475c5a53145b4",
+    "submodules": [
+      "e52ee8ca55bcc56a17c828767a3f98f22a68d4eb modules/autosuggestions/external (e52ee8c)",
+      " e461417f4e20b20f84b9d48a7acd582145723929 modules/completion/external (e461417)",
+      "-d58aaf42213463e49a0d704ad598026947f7404e modules/fasd/external",
+      " 14c8d2e0ffaee98f2df9850b19944f32546fdea5 modules/history-substring-search/external (heads/master)",
+      " 6bba672c7812a76defc3efed9b6369eeee2425dc modules/prompt/external/agnoster (heads/master)",
+      " ee1d11b68c38dec24c22b1c51a45e8a815a79756 modules/prompt/external/async (heads/main)",
+      " 35833ea15f14b71dbcebc7e54c104d8d56ca5268 modules/prompt/external/powerlevel10k (35833ea)",
+      " c48e4c69ef5c368ea7cda961ed9d0e298a5ae1fc modules/prompt/external/powerline (heads/master)",
+      " dbefd0dcafaa3ac7d7222ca50890d9d0c97f7ca2 modules/prompt/external/pure (dbefd0d)",
+      " 1d85c692615a25fe2293bdd44b34c217d5d2bf04 modules/syntax-highlighting/external (1d85c69)"
+    ]
+  },
+  "fzf": {
+    "version": "0.74.4",
+    "origin": "https://github.com/junegunn/fzf",
+    "sha256": "4f6a113bfc0c7959e0005c78d566a51afc4fcefc956f43735c62a9deb19e92ae",
+    "commit": "a140afeb4d733cad3c96a56bf6db7e26853b6757"
+  },
+  "powerline-fonts": {
+    "origin": "https://github.com/powerline/fonts.git",
+    "commit": "a029626780dd4af32f15a3e708a5b00528c22f1d",
+    "file": "DroidSansMonoDotted/Droid Sans Mono Dotted for Powerline.ttf"
+  }
+}

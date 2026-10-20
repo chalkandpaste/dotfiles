@@ -1,0 +1,165 @@
+{
+  "Profiles": [
+    {
+      "Bold Color": {
+        "Red Component": 0.48315876722335815,
+        "Color Space": "P3",
+        "Blue Component": 0.5953044295310974,
+        "Alpha Component": 1.0,
+        "Green Component": 0.5480939149856567
+      },
+      "Background Color": {
+        "Red Component": 0.020322063006460667,
+        "Color Space": "sRGB",
+        "Blue Component": 0.06732177734375,
+        "Alpha Component": 1.0,
+        "Green Component": 0.04457990195541502
+      },
+      "Ansi 8 Color": {
+        "Red Component": 0.3383718729019165,
+        "Color Space": "P3",
+        "Blue Component": 0.2220483422279358,
+        "Alpha Component": 1.0,
+        "Green Component": 0.32594698667526245
+      },
+      "Cursor Text Color": {
+        "Green Component": 0.12156862765550613,
+        "Blue Component": 0.12941177189350128,
+        "Red Component": 0.11372549086809158
+      },
+      "Ansi 0 Color": {
+        "Green Component": 0.0,
+        "Blue Component": 0.0,
+        "Red Component": 0.0
+      },
+      "Ansi 3 Color": {
+        "Green Component": 0.7764705882352941,
+        "Blue Component": 0.4549019607843137,
+        "Red Component": 0.9411764705882353
+      },
+      "Selected Text Color": {
+        "Green Component": 0.7843137255,
+        "Blue Component": 0.7764705882,
+        "Red Component": 0.7725490196
+      },
+      "Ansi 6 Color": {
+        "Green Component": 0.7450980392156863,
+        "Blue Component": 0.7176470588235294,
+        "Red Component": 0.5411764705882353
+      },
+      "Cursor Color": {
+        "Green Component": 0.7843137255,
+        "Blue Component": 0.7764705882,
+        "Red Component": 0.7725490196
+      },
+      "Vertical Spacing": 1.0,
+      "Ansi 9 Color": {
+        "Green Component": 0.4,
+        "Blue Component": 0.4,
+        "Red Component": 0.8
+      },
+      "Ansi 14 Color": {
+        "Green Component": 0.7450980392,
+        "Blue Component": 0.7176470588,
+        "Red Component": 0.5411764706
+      },
+      "Ansi 12 Color": {
+        "Green Component": 0.6352941176,
+        "Blue Component": 0.7450980392,
+        "Red Component": 0.5058823529
+      },
+      "Ansi 10 Color": {
+        "Green Component": 0.7411764706,
+        "Blue Component": 0.4078431373,
+        "Red Component": 0.7098039216
+      },
+      "Foreground Color": {
+        "Red Component": 0.807843137254902,
+        "Color Space": "sRGB",
+        "Blue Component": 0.807843137254902,
+        "Alpha Component": 1.0,
+        "Green Component": 0.807843137254902
+      },
+      "Ansi 1 Color": {
+        "Green Component": 0.4,
+        "Blue Component": 0.4,
+        "Red Component": 0.8
+      },
+      "Horizontal Spacing": 1.0,
+      "Badge Color": {
+        "Red Component": 1.0,
+        "Color Space": "sRGB",
+        "Blue Component": 0.0,
+        "Alpha Component": 0.5,
+        "Green Component": 0.14910027384757996
+      },
+      "Ansi 4 Color": {
+        "Green Component": 0.6352941176470588,
+        "Blue Component": 0.7450980392156863,
+        "Red Component": 0.5058823529411764
+      },
+      "Selection Color": {
+        "Red Component": 0.3,
+        "Color Space": "P3",
+        "Blue Component": 0.3,
+        "Alpha Component": 1.0,
+        "Green Component": 0.3
+      },
+      "Use Non-ASCII Font": false,
+      "Ansi 7 Color": {
+        "Green Component": 0.9999743700027466,
+        "Blue Component": 0.9999912977218628,
+        "Red Component": 1.0
+      },
+      "Non Ascii Font": "Monaco 12",
+      "Cursor Guide Color": {
+        "Red Component": 0.7021402716636658,
+        "Color Space": "sRGB",
+        "Blue Component": 1.0,
+        "Alpha Component": 0.25,
+        "Green Component": 0.9268137812614441
+      },
+      "Ansi 2 Color": {
+        "Green Component": 0.7411764705882353,
+        "Blue Component": 0.40784313725490196,
+        "Red Component": 0.7098039215686275
+      },
+      "Normal Font": "DroidSansMonoDottedForPowerline 12",
+      "Ansi 15 Color": {
+        "Green Component": 0.9999743700027466,
+        "Blue Component": 0.9999912977218628,
+        "Red Component": 1.0
+      },
+      "Ansi 13 Color": {
+        "Green Component": 0.5803921569,
+        "Blue Component": 0.7333333333,
+        "Red Component": 0.6980392157
+      },
+      "Link Color": {
+        "Red Component": 0.0,
+        "Color Space": "sRGB",
+        "Blue Component": 0.7342271208763123,
+        "Alpha Component": 1.0,
+        "Green Component": 0.35915297269821167
+      },
+      "Ansi 11 Color": {
+        "Green Component": 0.7764705882,
+        "Blue Component": 0.4549019608,
+        "Red Component": 0.9411764706
+      },
+      "Ansi 5 Color": {
+        "Green Component": 0.580392156862745,
+        "Blue Component": 0.7333333333333333,
+        "Red Component": 0.6980392156862745
+      },
+      "Name": "Chalk Dev",
+      "Guid": "74C56B54-CB57-4E37-BA45-6591531ADCF1",
+      "Custom Command": "No",
+      "Initial Text": "",
+      "Custom Directory": "No",
+      "Working Directory": "",
+      "Option Key Sends": 2,
+      "Right Option Key Sends": 2
+    }
+  ]
+}

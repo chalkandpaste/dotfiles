@@ -1,0 +1,6 @@
+# Apple Silicon Homebrew, retaining the system's normal search path.
+if [[ -x /opt/homebrew/bin/brew ]]; then
+  eval "$(/opt/homebrew/bin/brew shellenv)"
+fi
+export EDITOR=nvim VISUAL=nvim
+export LANG=en_US.UTF-8
